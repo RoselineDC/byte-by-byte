@@ -1,4 +1,4 @@
 // store the count
 let count = 0;
 
-console
+console.log("Initial count:", count);
