@@ -17,3 +17,4 @@ console.log('ROSELINE\'s dog age is ', dogAge);
 console.log("Incremented count:", count);
 
 // bonus ponts
+let bonusPoints = 50;
