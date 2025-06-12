@@ -20,4 +20,5 @@ console.log("Incremented count:", count);
 let bonusPoints = 50;
 bonusPoints = bonusPoints + 50;
 console.log("Bonus points:", bonusPoints);
-// decrement the count
+// decrement the bonus points
+bonusPoints = bonusPoints - 25;
