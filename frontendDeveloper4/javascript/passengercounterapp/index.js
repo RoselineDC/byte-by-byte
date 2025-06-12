@@ -18,4 +18,4 @@ console.log("Incremented count:", count);
 
 // bonus ponts
 let bonusPoints = 50;
-b
+bonusPoints = bonusPoints + 50;
