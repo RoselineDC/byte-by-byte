@@ -11,3 +11,5 @@ let humanDogRatio = 7;
 myAge = 9;
 let dogAge = myAge * humanDogRatio;
 console.log('ROSELINE\'s dog age is ', dogAge);
+
+// 
