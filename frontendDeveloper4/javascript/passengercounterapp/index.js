@@ -1,2 +1,2 @@
 // store the count
-count =
+count = 0;
