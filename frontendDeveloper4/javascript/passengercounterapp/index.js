@@ -23,3 +23,4 @@ console.log("Bonus points:", bonusPoints);
 // decrement the bonus points
 bonusPoints = bonusPoints - 25;
 console.log("Decremented bonus points:", bonusPoints);
+
