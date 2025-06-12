@@ -6,4 +6,4 @@ console.log("Initial count:", count);
 let myAge = 25;
 console.log('ROSELINE is ', myAge)
 
-// 
+// dog age
