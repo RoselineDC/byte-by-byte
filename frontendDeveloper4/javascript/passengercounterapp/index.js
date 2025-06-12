@@ -7,4 +7,4 @@ let myAge = 25;
 console.log('ROSELINE is ', myAge)
 
 // dog age
-let H= 7;
+let human= 7;
