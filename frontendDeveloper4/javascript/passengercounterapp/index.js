@@ -3,4 +3,4 @@ let count = 0;
 
 console.log("Initial count:", count);
 
-let myage = 25
+let myAge = 25
