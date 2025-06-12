@@ -12,4 +12,6 @@ myAge = 9;
 let dogAge = myAge * humanDogRatio;
 console.log('ROSELINE\'s dog age is ', dogAge);
 
-// 
+// increment the count
+ count = count + 1;
+console.log("Incremented count:", count);
