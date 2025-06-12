@@ -8,6 +8,6 @@ console.log('ROSELINE is ', myAge)
 
 // dog age
 let humanDogRatio = 7;
-myAge = 9
+myAge = 9;
 let dogAge = myAge * humanDogRatio;
 console.log('ROSELINE\'s dog age is ', dogAge);
