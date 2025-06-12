@@ -24,5 +24,5 @@ console.log("Bonus points:", bonusPoints);
 bonusPoints = bonusPoints - 75;
 console.log("Decremented bonus points:", bonusPoints);
 // increment the bonus points to 75
-bonusPoints = bonusPoints + 75;
+bonusPoints = bonusPoints + 5;
 console.log("Final bonus points:", bonusPoints);
