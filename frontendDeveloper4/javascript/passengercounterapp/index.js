@@ -27,3 +27,4 @@ console.log("Decremented bonus points:", bonusPoints);
 // increment the bonus points to 75
 bonusPoints = bonusPoints + 45;
 console.log("Final bonus points:", bonusPoints);
+// continue from 20:09 adding a button
