@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Developer 4</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>People entered:</h1>
-    <h2 id="count-el">0</h2>
-    <!-- create a button with id="increment-btn" -->
-     <button id="increment-btn">Increment</button>
-    </h2>
+    <div>
+        <p id="welcome-el" >
+            Welcome to the Passenger Counter App
+        </p>
+        <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+        <!-- create a button with id="increment-btn" -->
+        <button id="increment-btn" onclick="increment()">Increment</button>
+        </h2>
+        <!-- save increment count to local storage -->
+        <button id="save-btn" onclick="save()">Save</button>
+        <h2 id="saved-el">Previous entered: </h2>
+    </div>
+    <div>
+        <img src="https://picsum.photos/200/300" alt="random image" id="image">
+        <p>Random image</p> 
+        <button onclick="renderError()">Next Image</button>
+        <p id="error-el"></p>
+       </div>
     
     <script src="index.js"></script>
+    <script src="./../challeng.js"></script>
+
 </body>
-</html>
+</html

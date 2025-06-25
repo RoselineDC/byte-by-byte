@@ -1,30 +1,44 @@
-// store the count
-let count = 0;
+// make button interactive
+  let count = 0;
+  let countEl = document.getElementById("count-el");
+  let saveBtn = document.getElementById("save-btn"); //save count to local
+ let saveEl = document.getElementById("saved-el"); // element to display saved counts
+ let welcomeEl = document.getElementById("welcome-el");
+function increment() {
+    /* initilize count variable */
+  
+    // listen for click on button with id="increment-btn"
+    console.log("Button clicked"); 
+    // increment count variable when button is clicked
+    count = count + 1
+    console.log(count);
+    // update count-el in the HTML with the count variable
+    countEl.textContent = count;
 
-console.log("Initial count:", count);
-// age
-let myAge = 25;
-console.log('ROSELINE is ', myAge)
 
-// dog age
-let humanDogRatio = 7;
-myAge = 9;
-let dogAge = myAge * humanDogRatio;
-console.log('ROSELINE\'s dog age is ', dogAge);
+}
+//save count to local storage
+function save(e){
+    
+    let countStr = count + " - "
+    // save the count to local storage
+   
+    saveEl.textContent += countStr;
+    countEl.textContent = 0;
+    count = 0;
 
-// increment the count
- count = count + 1;
-console.log("Incremented count:", count);
+    console.log(saveEl)
+}
 
-// bonus ponts
-let bonusPoints = 50;
-console.log("Initial bonus points:", bonusPoints);
-bonusPoints = bonusPoints + 50;
-console.log("Bonus points:", bonusPoints);
-// decrement the bonus points
-bonusPoints = bonusPoints - 75;
-console.log("Decremented bonus points:", bonusPoints);
-// increment the bonus points to 75
-bonusPoints = bonusPoints + 45;
-console.log("Final bonus points:", bonusPoints);
-// continue from 20:09 adding a button
+// create a welcome 
+    let nam =" Roseline Danga";
+    let greeting = " welcome back";
+    welcomeEl.innerText = greeting + nam;
+   welcomeEl.style.color = "green";
+   welcomeEl.style.fontSize = "30px";
+   welcomeEl.style.textAlign = "center";
+   welcomeEl.innerText += "👋";
+
+
+   
+
