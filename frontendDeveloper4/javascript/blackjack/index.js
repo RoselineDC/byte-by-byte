@@ -9,4 +9,7 @@ let sum = firstCard + secondCard;
 if(sum < 21){
     console.log("Do you want to draw a new card? Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);
 }
+else if(sum === 21){
+    
+}
 
