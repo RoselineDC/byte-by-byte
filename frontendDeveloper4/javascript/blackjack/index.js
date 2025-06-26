@@ -13,6 +13,5 @@ else if(sum === 21){
     console.log("You win! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);
 }
 else{
-    console.log("You lose! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);
-    
+    console.log("You lose! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);   
 }
