@@ -16,4 +16,6 @@ else{
     console.log("You lose! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);   
 }
 
-let age = Math
+let age = Math.floor(Math.random() * 100) + 1;
+let canVote = age >= 18 ? "You can vote" : "You cannot vote";
+console.log(canVote);
