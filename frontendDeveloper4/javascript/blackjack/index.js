@@ -15,3 +15,5 @@ else if(sum === 21){
 else{
     console.log("You lose! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);   
 }
+
+let age = Math
