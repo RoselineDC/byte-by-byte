@@ -8,3 +8,4 @@ let sum = firstCard + secondCard;
 console.log("First Card: " + firstCard);
 console.log("Second Card: " + secondCard);
 console.log("Sum: " + sum);
+
