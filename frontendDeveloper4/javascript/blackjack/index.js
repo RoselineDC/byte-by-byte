@@ -14,7 +14,7 @@ let message = "";
 //check if sum is less than 21
 if(sum < 21){
     message = "Do you want to draw a new card? Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum;
-    console.log("Do you want to draw a new card? Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);
+    console.log();
     
 }
 else if(sum === 21){
