@@ -14,12 +14,12 @@ let message = "";
 //check if sum is less than 21
 if(sum < 21){
     message = "Do you want to draw a new card? Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum;
-    console.log(message);
+  
     
 }
 else if(sum === 21){
     message = "You win! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum;
-    console.log(message);
+   
     hasBlackJack = true;
 }
 else{
