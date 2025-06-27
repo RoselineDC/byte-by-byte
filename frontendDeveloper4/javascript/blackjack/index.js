@@ -18,6 +18,7 @@ if(sum < 21){
     
 }
 else if(sum === 21){
+    
     console.log("You win! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);
     hasBlackJack = true;
 }
