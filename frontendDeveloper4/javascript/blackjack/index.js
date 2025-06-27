@@ -28,5 +28,5 @@ else{
     isAlive = false;  
 }
 
-// console.log(hasBlackJack)
-// console.log(isAlive)
+//log out message 
+console.log(message); 
