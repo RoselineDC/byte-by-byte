@@ -24,7 +24,7 @@ else if(sum === 21){
 }
 else{
     message = "You lose! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum;
-    console.log(message); 
+    
     isAlive = false;  
 }
 
