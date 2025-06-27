@@ -8,6 +8,7 @@ let sum = firstCard + secondCard;
 //  check if hasBlackJack
 let hasBlackJack = false;
 let isAlive = true;
+let 
 
 
 //check if sum is less than 21
