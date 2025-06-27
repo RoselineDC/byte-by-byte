@@ -28,4 +28,5 @@ else{
     isAlive = false;  
 }
 
-/
+// console.log(hasBlackJack)
+// console.log(isAlive)
