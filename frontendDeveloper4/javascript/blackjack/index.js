@@ -13,7 +13,7 @@ let isAlive = true;
 //check if sum is less than 21
 if(sum < 21){
     console.log("Do you want to draw a new card? Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);
-    
+    isAlive = false;
 }
 else if(sum === 21){
     console.log("You win! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum);
