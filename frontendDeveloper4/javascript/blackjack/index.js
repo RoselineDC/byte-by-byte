@@ -23,6 +23,7 @@ else if(sum === 21){
     hasBlackJack = true;
 }
 else{
+    
     console.log("You lose! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum); 
     isAlive = false;  
 }
