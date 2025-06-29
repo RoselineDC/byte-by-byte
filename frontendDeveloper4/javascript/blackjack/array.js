@@ -3,3 +3,5 @@ let myProfile = [
     " Full stack developer",
     " Junior Procurement Analyst | Hinc Group Pyt Ltd-Pretoria, Gauteng, South Africa",
 ]
+
+// continuer from 
