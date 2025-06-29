@@ -57,7 +57,7 @@ function startGame() {
 
 function newCard() {
   console.log("CHOOSE YOUR CARD");
-  let addedCard = Math.floor(Math.random() * 10) + 2;
+
   sum = sum + addedCard;
   renderGame();
 }
