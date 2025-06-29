@@ -58,7 +58,7 @@ function startGame() {
 
 function newCard() {
   console.log("CHOOSE YOUR CARD");
-     ardsEl.textContent = "Cards: " + cards[0] + " " + "&" + " " + cards[1]  + " " + "&" + " " + cards[2];
+     cardsEl.textContent = "Cards: " + cards[0] + " " + "&" + " " + cards[1]  + " " + "&" + " " + cards[2];
   sum = sum + addedCard;
   renderGame();
 }
