@@ -1,6 +1,7 @@
 // create 2 variables
 let firstCard = Math.floor(Math.random() * 10) + 2;
 let secondCard = Math.floor(Math.random() * 10) + 2;
+ let addedCard = Math.floor(Math.random() * 10) + 2;
 //create array to handle all cards
 let cards = [firstCard, secondCard, addedCard];
 // create variable sum set it to sum of two cards
