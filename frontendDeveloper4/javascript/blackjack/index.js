@@ -60,5 +60,5 @@ function newCard() {
   console.log("CHOOSE YOUR CARD");
      cardsEl.textContent = "Cards: " + cards[0] + " " + "&" + " " + cards[1]  + " " + "&" + " " + cards[2];
   sum = sum + addedCard;
-//   renderGame();
+  renderGame();
 }
