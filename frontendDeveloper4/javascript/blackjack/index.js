@@ -43,7 +43,8 @@ function startGame() {
 
     isAlive = false;
   }
-  
+
+  messageEl.textContent = message;
 
   //log out message
   console.log(message);
