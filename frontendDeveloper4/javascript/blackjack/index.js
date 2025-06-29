@@ -60,6 +60,7 @@ function newCard() {
     console.log("CHOOSE YOUR CARD");
     let card = Math.floor(Math.random() * 10) + 2;
     sum = sum + card;
+    cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard + " " + "&" + " " + card;
     startGame();
     
 }
