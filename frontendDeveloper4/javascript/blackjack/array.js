@@ -4,4 +4,4 @@ let myProfile = [
     " Junior Procurement Analyst | Hinc Group Pyt Ltd-Pretoria, Gauteng, South Africa",
 ]
 
-// continuer from 2:37
+// continue from 2:37
