@@ -56,4 +56,6 @@ function startGame() {
   console.log(message);
 }
 
-function newC
+function newCard() {
+    
+}
