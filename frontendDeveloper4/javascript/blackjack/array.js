@@ -1,1 +1,1 @@
-let myProfile = 
+let myProfile = []
