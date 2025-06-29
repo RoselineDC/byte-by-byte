@@ -63,3 +63,8 @@ function newCard() {
     startGame();
     
 }
+ sumEl.textContent = "Sum: " + sum;
+
+  messageEl.textContent = message;
+
+  cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard;
