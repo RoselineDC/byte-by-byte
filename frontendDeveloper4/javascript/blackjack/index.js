@@ -50,7 +50,9 @@ function renderGame() {
   messageEl.textContent = message;
   //log out message
 }
-
+function startGame() {
+  renderGame();
+}
 
 function newCard() {
   console.log("CHOOSE YOUR CARD");
