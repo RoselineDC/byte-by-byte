@@ -1,8 +1,7 @@
 // create 2 variables
 let firstCard = Math.floor(Math.random() * 10) + 2;
 let secondCard = Math.floor(Math.random() * 10) + 2;
- let card = Math.floor(Math.random() * 10) + 2;
-
+let card = Math.floor(Math.random() * 10) + 2;
 
 // create variable sum set it to sum of two cards
 let sum = firstCard + secondCard;
@@ -58,13 +57,23 @@ function startGame() {
 }
 
 function newCard() {
-    console.log("CHOOSE YOUR CARD");
-    // let card = Math.floor(Math.random() * 10) + 2;
-    sum = sum + card;
-    sumEl.textContent = "Sum: " + sum;
+  console.log("CHOOSE YOUR CARD");
+  // let card = Math.floor(Math.random() * 10) + 2;
+  sum = sum + card;
+  sumEl.textContent = "Sum: " + sum;
 
   messageEl.textContent = message;
 
-  cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard + " " + "&" + " " + card;
-    startGame();
+  cardsEl.textContent =
+    "Cards: " +
+    firstCard +
+    " " +
+    "&" +
+    " " +
+    secondCard +
+    " " +
+    "&" +
+    " " +
+    card;
+  startGame();
 }
