@@ -53,7 +53,7 @@ function startGame() {
 //   cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard;
 
   //log out message
-  console.log(message);
+
 }
 
 function newCard() {
