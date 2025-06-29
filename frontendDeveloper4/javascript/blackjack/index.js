@@ -58,7 +58,7 @@ function startGame() {
 
 function newCard() {
   console.log("CHOOSE YOUR CARD");
-
+     cardsEl.textContent = 
   sum = sum + addedCard;
   renderGame();
 }
