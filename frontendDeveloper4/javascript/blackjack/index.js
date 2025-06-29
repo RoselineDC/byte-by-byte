@@ -1,4 +1,4 @@
-// create 2 variables 
+// create 2 variables
 let firstCard = Math.floor(Math.random() * 10) + 2;
 let secondCard = Math.floor(Math.random() * 10) + 2;
 
@@ -11,27 +11,38 @@ let isAlive = true;
 let message = "";
 // get start button
 let messageEl = document.getElementById("message-el");
-function startGame(){
-    
-//check if sum is less than 21
-if(sum < 21){
-    message = "Do you want to draw a new card? Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum;
-  
-    
-}
-else if(sum === 21){
-    message = "You win! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum;
-   
+function startGame() {
+  //check if sum is less than 21
+  if (sum < 21) {
+    message =
+      "Do you want to draw a new card? Your cards are " +
+      firstCard +
+      " and " +
+      secondCard +
+      ". Your current score is " +
+      sum;
+  } else if (sum === 21) {
+    message =
+      "You win! Your cards are " +
+      firstCard +
+      " and " +
+      secondCard +
+      ". Your current score is " +
+      sum;
+
     hasBlackJack = true;
-}
-else{
-    message = "You lose! Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum;
-    
-    isAlive = false;  
-}
+  } else {
+    message =
+      "You lose! Your cards are " +
+      firstCard +
+      " and " +
+      secondCard +
+      ". Your current score is " +
+      sum;
 
-//log out message 
-console.log(message); 
+    isAlive = false;
+  }
 
-    
+  //log out message
+  console.log(message);
 }
