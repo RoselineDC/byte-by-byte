@@ -43,6 +43,7 @@ function startGame() {
 
     isAlive = false;
   }
+  
 
   //log out message
   console.log(message);
