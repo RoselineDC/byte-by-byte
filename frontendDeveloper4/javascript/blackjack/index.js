@@ -58,5 +58,5 @@ function startGame() {
 
 function newCard() {
     alert("CHOOSE YOUR CARD");
-    
+    let card =
 }
