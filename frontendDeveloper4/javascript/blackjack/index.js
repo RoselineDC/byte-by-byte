@@ -67,5 +67,4 @@ function newCard() {
 
   cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard + " " + "&" + " " + card;
     startGame();
-    
-}"&" + " " + card;
+}
