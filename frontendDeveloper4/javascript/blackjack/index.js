@@ -61,4 +61,5 @@ function newCard() {
      cardsEl.textContent = "Cards: " + cards[0] + " " + "&" + " " + cards[1]  + " " + "&" + " " + cards[2];
   sum = sum + addedCard;
   renderGame();
+   cardsEl.textContent = "Cards: " + cards[0] + " " + "&" + " " + cards[1]  + " " + "&" + " " + cards[2];
 }
