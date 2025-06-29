@@ -51,6 +51,7 @@ function renderGame() {
   //log out message
 }
 
+
 function newCard() {
   console.log("CHOOSE YOUR CARD");
   let card = Math.floor(Math.random() * 10) + 2;
