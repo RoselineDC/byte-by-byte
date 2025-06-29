@@ -9,8 +9,10 @@ let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isAlive = true;
 let message = "";
-
-
+// get start button
+let messageEl = document.getElementById("message-el");
+function startGame(){
+    
 //check if sum is less than 21
 if(sum < 21){
     message = "Do you want to draw a new card? Your cards are " + firstCard + " and " + secondCard + ". Your current score is " + sum;
@@ -30,3 +32,6 @@ else{
 
 //log out message 
 console.log(message); 
+
+    
+}
