@@ -2,7 +2,6 @@
 let firstCard = Math.floor(Math.random() * 10) + 2;
 let secondCard = Math.floor(Math.random() * 10) + 2;
 
-
 // create variable sum set it to sum of two cards
 let sum = firstCard + secondCard;
 
@@ -15,9 +14,8 @@ let messageEl = document.getElementById("message-el");
 let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
 function startGame() {
-    
   sumEl.textContent = "Sum: " + sum;
-    cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard;
+  cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard;
   //check if sum is less than 21
   if (sum < 21) {
     message =
@@ -49,20 +47,27 @@ function startGame() {
     isAlive = false;
   }
 
-
   messageEl.textContent = message;
 
   cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard;
 
   //log out message
-
 }
 
 function newCard() {
-    console.log("CHOOSE YOUR CARD");
-    let card = Math.floor(Math.random() * 10) + 2;
-    sum = sum + card;
-    cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard + " " + "&" + " " + card;
-    startGame();
-    
+  console.log("CHOOSE YOUR CARD");
+  let card = Math.floor(Math.random() * 10) + 2;
+  sum = sum + card;
+  cardsEl.textContent =
+    "Cards: " +
+    firstCard +
+    " " +
+    "&" +
+    " " +
+    secondCard +
+    " " +
+    "&" +
+    " " +
+    card;
+  startGame();
 }
