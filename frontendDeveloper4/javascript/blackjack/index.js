@@ -66,5 +66,5 @@ function newCard() {
     "&" +
     " " +
     card;
-  startGame();
+  renderGame();
 }
