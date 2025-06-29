@@ -13,7 +13,7 @@ let message = "";
 let messageEl = document.getElementById("message-el");
 let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
-function startGame() {
+function renderGame() {
   sumEl.textContent = "Sum: " + sum;
   cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard;
   //check if sum is less than 21
