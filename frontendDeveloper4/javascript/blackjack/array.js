@@ -1,5 +1,5 @@
 let myProfile = [
     "Roseline Dangazela",
     " Full stack developer",
-    " Junior Procurement Analyst | H"
+    " Junior Procurement Analyst | Hinc G"
 ]
