@@ -12,7 +12,7 @@ let isAlive = true;
 let message = "";
 // get start button
 let messageEl = document.getElementById("message-el");
-
+let sum
 function startGame() {
   //check if sum is less than 21
   if (sum < 21) {
