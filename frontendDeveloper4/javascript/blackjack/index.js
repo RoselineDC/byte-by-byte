@@ -48,9 +48,6 @@ function startGame() {
   }
 
   messageEl.textContent = message;
-
-  cardsEl.textContent = "Cards: " + firstCard + " " + "&" + " " + secondCard;
-
   //log out message
 }
 
