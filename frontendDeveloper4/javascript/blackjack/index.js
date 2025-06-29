@@ -55,3 +55,5 @@ function startGame() {
   //log out message
   console.log(message);
 }
+
+function newC
