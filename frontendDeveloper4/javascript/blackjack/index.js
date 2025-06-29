@@ -49,7 +49,8 @@ function startGame() {
   sumEl.textContent = "Sum: " + sum;
 
   messageEl.textContent = message;
-  
+
+  cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
 
   //log out message
   console.log(message);
