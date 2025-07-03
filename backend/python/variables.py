@@ -30,3 +30,5 @@ is_employed = False
 print(f"Is the person employed? {is_employed}.") # Output: Is the person employed? True.
 is_student = True
 print(f"Is the person a student? {is_student}.") # Output: Is the person a student? True.
+
+
