@@ -24,7 +24,7 @@ print(f"My height is {height} feet.") # Output: My height is 5.5 feet.
 # boolean variable
 # booleans can be True or False
 # first letter is capitalized
-
+# ussialy used to represent a yes/no or true/false condition
 # USED INTERNALLY FOR LOGIC
 is_employed = False
 print(f"Is the person employed? {is_employed}.") # Output: Is the person employed? True.
