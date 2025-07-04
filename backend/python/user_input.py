@@ -5,4 +5,4 @@ input("Please enter your input:")
 
 names = input("Please enter your names separated by commas: ")
 
-print()
+print("Hello,")
