@@ -4,3 +4,5 @@ input("Please enter your input:")
 #  CAN BE USED AS A VALUE OF A VARIABLE
 
 names = input("Please enter your names separated by commas: ")
+
+print()
