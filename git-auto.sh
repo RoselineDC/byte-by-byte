@@ -1,7 +1,7 @@
 #!/bin/bash
 
-set -x
-sleep 1 
+set -ex  # Exit on error and show commands
+sleep 1
 
 # Set Git user config if not already set
 if ! git config --global user.email > /dev/null; then
@@ -12,7 +12,7 @@ if ! git config --global user.name > /dev/null; then
     git config --global user.name "RoselineDC"
 fi
 
-# Stage all changes (modified + untracked)
+echo "📦 Staging all changes..."
 git add .
 
 # Check if there's anything to commit
@@ -21,11 +21,12 @@ if git diff --cached --quiet; then
     exit 0
 fi
 
-# Commit and push
 timestamp=$(date "+%Y-%m-%d %H:%M:%S")
+echo "📝 Committing changes..."
 git commit -m "modified by Roseline on $timestamp"
 
 branch=$(git symbolic-ref --short HEAD)
+echo "🚀 Pushing to branch: $branch..."
 git push origin "$branch"
 
-echo "🚀 Changes pushed to branch $branch at $timestamp"
+echo "✅ Changes pushed to $branch at $timestamp"
