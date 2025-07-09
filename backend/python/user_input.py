@@ -6,3 +6,6 @@ input("Please enter your input:")
 names = input("Please enter your names separated by commas: ")
 
 print(f"Hello {names}!")
+
+age = input("Please enter your age: ")
+print(f"You are {age} years old!")
